@@ -8,8 +8,7 @@ def solution(arr, queries):
     return answer
 
 
-
-# best solution
+# best solution (1)
 def solution(arr, queries):
     answer = []
     for s, e, k in queries:
