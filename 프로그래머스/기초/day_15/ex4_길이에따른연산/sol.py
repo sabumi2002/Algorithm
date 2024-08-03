@@ -12,7 +12,7 @@ def solution(num_list):
         return eval('+'.join(list(map(str, num_list))))
     else:
         return eval('*'.join(list(map(str, num_list))))
-    
+# eval() 
 # best solution (2)
 from math import prod
 def solution(num_list):
