@@ -1,4 +1,5 @@
-n = int(input())
+import sys
+n = int(sys.stdin.readline().rstrip())
 for _ in range(n):
     s = input()
     count = 0
